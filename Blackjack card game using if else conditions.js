@@ -7,7 +7,7 @@ if(sum < 21) {
     console.log("Do you want to draw another card?")
 }
 else if (sum === 21) {
-    console.log("You have a blackjack! You won!")
+    console.log("Congratulations! You have a blackjack! You won!")
 }
 else {
     console.log("Sorry! You are out of the game.")
