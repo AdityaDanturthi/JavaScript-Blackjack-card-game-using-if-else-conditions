@@ -17,6 +17,8 @@ let sum = firstCard + secondCard
 // else if exactly 21 -> "Wohoo! You've got Blackjack"
 // else -> "You're out of the game!"
 let hasBlackJack = false
+let isAlive = true
+
 if (sum <= 20) {
     console.log("Do you want to draw a new card?")
 }
@@ -26,6 +28,8 @@ else if (sum === 21) {
 }
 else {
     console.log("You're out of the game!")
+    isAlive = false
 }
 
 console.log(hasBlackJack)
+console.log(isAlive)
